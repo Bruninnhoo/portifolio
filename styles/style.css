@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+:root{
+    --primary-color:#032424;
+    --secondary-color:#f6f6f6;
+    --terciary-color: #008F8C;
+    --hover-color: #272727;
+}
+
+*{
+    margin: 0px;
+    paddin: 0px;
+}
+
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.apresentacao{
+    padding: 6% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.strong-title{
+    color:var(--terciary-color);
+}
+.header{
+    padding: 2% 0% 0% 15%;
+}
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 450;
+    color: var(--terciary-color);
+}
+
+.apresentacao__conteudo__title{
+    font-size: 2.25rem;
+    font-family: 'Krona One';
+    line-height: 32px;
+}
+
+.apresentacao__conteudo__text{
+    font-size: 1.45rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 400;
+}
+.apresentacao__links__link{
+    /* background-color: #f3f308; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid var(--terciary-color);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 16.5px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: var(--secondary-color);
+}
+.apresentacao__links__link:hover{
+    background-color: var(--hover-color);
+}
+
+.foot{
+    color: black;
+    background-color: var(--terciary-color);
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
